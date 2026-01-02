@@ -11,8 +11,8 @@ Simple and modular Python code structure
 
 # Technologies Used
 Python
-OpenCV (cv2) – image processing and video capture
-face_recognition – facial feature extraction and matching
+OpenCV (cv2) – image processing and video capture,
+face_recognition – facial feature extraction and matching,
 NumPy – numerical computations
 
 # How It Works
@@ -27,5 +27,12 @@ Face-based authentication systems
 Research and learning in computer vision
 This project demonstrates practical knowledge of computer vision, image processing, and Python-based machine learning libraries, and serves as a strong foundation for more advanced AI-driven recognition systems.
 Detected faces are compared with stored encodings.
-
 The system identifies and labels recognized faces in real time.
+
+# ⚠️ Python Version Warning
+
+This project relies on the face_recognition library, which depends on dlib.
+
+dlib does not currently provide stable support for Python 3.12, and installation may fail.
+
+✅ Recommended: Python 3.10 or 3.11 for smooth installation and reliable performance.
